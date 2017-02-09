@@ -1,9 +1,9 @@
 let webpack = require('webpack');
 module.exports = {
-    entry: "./src/angular-worker.js",
+    entry: "./src/angular-uuid.js",
     output: {
         path: './dist',
-        filename: "angular-worker.min.js"
+        filename: "angular-uuid.min.js"
     },
     module: {
         loaders: [{

@@ -1,11 +1,11 @@
 {
-  "name": "angular-worker",
+  "name": "angular-uuid",
   "version": "1.0.0",
   "description": "",
   "main": "",
   "scripts": {
     "test": "karma start",
-    "build": "grunt uglify",
+    "build": "webpack",
     "start": ""
   },
   "keywords": [
@@ -13,7 +13,7 @@
     "web worker"
   ],
   "author": "Galastun",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "angular": "^1.5.8",
     "angular-mocks": "^1.6.1",

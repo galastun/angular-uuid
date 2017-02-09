@@ -1,1 +1,1 @@
-let app = angular.module('test', ['worker']);
+let app = angular.module('test', ['uuid']);

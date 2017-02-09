@@ -5,7 +5,7 @@ module.exports = function(config) {
 		files: [
 			'./node_modules/angular/angular.js',
 			'./node_modules/angular-mocks/angular-mocks.js',
-            './dist/angular-worker.min.js',
+            './dist/angular-uuid.min.js',
             './test/app.js',
 			'./test/*.spec.js'
 		],
